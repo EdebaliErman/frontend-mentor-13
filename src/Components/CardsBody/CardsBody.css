@@ -4,6 +4,6 @@
 
 @layer components{
     .CardsBody{
-        @apply flex justify-center items-center
+        @apply flex justify-center items-center flex-wrap
     }
 }

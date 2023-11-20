@@ -2,18 +2,22 @@
 
 @layer components {
     header {
-        @apply flex justify-center items-center flex-col p-1
+        @apply flex justify-center items-center flex-col 
     }
 
     header h1 {
-        @apply text-5xl text-gray-600 font-sans font-extralight
+        @apply text-[36px] text-gray-600 font-sans font-extralight mt-12
+        sm:text-3xl
     }
 
     header h2 {
-        @apply text-[45px] text-gray-700 font-sans font-bold
+        @apply text-[34px] text-gray-700 font-sans font-bold
+        sm:text-[29px]
+
     }
 
     header h4 {
-        @apply text-2xl text-gray-400  font-normal 
+        @apply text-lg text-gray-400  font-normal w-[35rem] text-center mt-4
+        sm:w-[20rem]
     }
 }

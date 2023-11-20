@@ -1,17 +1,25 @@
 @tailwind components;
 
 @layer components {
-  .Card{
-    @apply p-8 w-[450px] h-72 
-    border-t-8 rounded-md shadow-2xl m-12
+  .Card {
+    @apply p-8 w-[400px] h-72 py-9 border-t-8 rounded-md shadow-2xl m-12 
+    sm:mx-0 sm:w-80 sm:h-[17rem] relative
   }
-  .Card h1{
-    @apply text-3xl font-mono font-bold text-gray-700 my-2
+
+  .Card h1 {
+    @apply text-2xl font-mono font-bold text-gray-700 my-1
   }
-  .Card p{
-    @apply text-xl text-gray-400 font-sans mb-12
+
+  .Card p {
+    @apply text-lg text-gray-400 font-sans mb-12
+    sm:text-sm
   }
-  .Card .svg-pozition{
-    @apply  flex justify-end items-end m-4
+
+  .Card .svg-pozition {
+    @apply flex justify-end items-end m-4
+  }
+
+  .svg-pozition svg {
+    @apply sm:absolute bottom-4
   }
 }

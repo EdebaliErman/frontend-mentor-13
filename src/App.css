@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components{
+    .App{
+        @apply flex justify-center items-center flex-col 
+    }
+}
