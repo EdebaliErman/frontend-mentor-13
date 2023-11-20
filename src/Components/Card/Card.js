@@ -8,10 +8,12 @@ function Card({
     icon
 }) {
     return (
-        <div className={color}>
+        <div className={color + " Card"}>
             <h1>{title}</h1>
             <p>{paragraph}</p>
-            <svg className='w-12 h-12 bg-green-300 flex justify-end items-end'></svg>
+            <div className='svg-pozition'>
+                {icon}
+            </div>
         </div>
     )
 }
