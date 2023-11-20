@@ -1,10 +1,11 @@
 import React from 'react'
 import Card from '../Card/Card'
 import { cardDetail } from '../../Data/CardData'
+import "./CardsBody.css"
 
 function CardsBody() {
     return (
-        <div>
+        <div className='CardsBody'>
             <Card
                 title={cardDetail.supervizor.title}
                 paragraph={cardDetail.supervizor.paragraph}
